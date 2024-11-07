@@ -26,9 +26,13 @@
 }
 
 body {
+    height: 100vh;
+    background-position: center;
     display: flex;
     background-image: url('https://media1.tenor.com/m/whAhQj8irG8AAAAC/lady-and-the-tramp-dogs.gif');
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .blurred-background {
@@ -41,6 +45,7 @@ body {
     bottom: 0;
     background: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(10px);
+
 }
 
 .centered-content {
